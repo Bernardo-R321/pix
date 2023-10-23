@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  background-image: url("../images/background.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  gap: 100px;
+}
+
+.link {
+  border: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 10px;
+  color: black;
+  border-color: black;
+  text-decoration: none;
+  background-color: white;
+}
+
+.link:hover {
+  background-color: gainsboro;
+  border-color: black;
+  animation: fonteMaior 500ms;
+  animation-fill-mode: forwards;
+  font-size: larger;
+}
+
+@keyframes fonteMaior {
+  100% {
+    font-size: 40px;
+  }
+}

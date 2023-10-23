@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  margin: 15px;
+}
+
+.form-consulta {
+  display: flex;
+  gap: 5px;
+}
+
+.table {
+  margin-top: 10px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+  background-color: white;
+}
+
+.button {
+  background-color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: gainsboro;
+}
+
+.radio {
+  cursor: pointer;
+}
+
+th,
+td {
+  border: 1px solid black;
+  background-color: white;
+}
+
+td {
+  text-align: center;
+  padding: 5px;
+}
+
+.link {
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 5px;
+  color: black;
+  border-color: black;
+  text-decoration: none;
+  background-color: white;
+}
+
+.link:hover {
+  background-color: gainsboro;
+  border-color: black;
+}
+
+body {
+  background-image: url("../images/backgroundConsultar.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
