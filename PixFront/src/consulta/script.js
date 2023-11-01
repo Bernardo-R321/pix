@@ -6,6 +6,10 @@ let campoId = document.getElementById("id");
 async function buscarPix() {
   let tipoRadio = "";
 
+  while (corpoTable.firstChild) {
+    corpoTable.removeChild(corpoTable.firstChild);
+  }
+
   for (i = 0; i < radioButtons.length; i++) {
     if (radioButtons[i].checked) {
       tipoRadio = radioButtons[i].value;
